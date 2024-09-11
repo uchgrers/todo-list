@@ -1,0 +1,8 @@
+.error {
+    position: absolute;
+    width: var(--width-error-message);
+    left: calc(50% - var(--width-error-message) / 2);
+    top: 40px;
+    color: var(--color-error-message);
+    transition-duration: 0s;
+}

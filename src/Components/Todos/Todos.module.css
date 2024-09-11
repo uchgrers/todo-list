@@ -1,0 +1,10 @@
+.todos {
+    width: 500px;
+    margin-top: 2em;
+}
+
+@media (max-width: 530px) {
+    .todos {
+        width: var(--max-width-form-wrapper-small-screen);
+    }
+}

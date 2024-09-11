@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: var(--max-width-form-wrapper-large-screen);
+    width: var(--max-width-form-wrapper-large-screen);
+    margin-top: 10px;
+    padding-inline: var(--padding-inline);
+}
+
+.addTodoButton {
+    width: 90px;
+    margin-left: 10px;
+}
+
+.preloaderWrapper {
+    width: 30px;
+}
+
+@media (max-width: 530px) {
+    .form {
+        width: var(--max-width-form-wrapper-small-screen);
+    }
+    form input {
+        width: 170px;
+    }
+    .addTodoButton {
+        width: 60px;
+    }
+}
