@@ -7,7 +7,6 @@ import TodoText from "./TodoText/TodoText";
 import TodoControls from "./TodoControls/TodoControls";
 
 const Todo = (props) => {
-    console.log(`todo ${props.id}`)
     const dispatch = useDispatch();
     const [isInEditMode, setIsInEditMode] = useState(false);
     const removeTask = () => {
